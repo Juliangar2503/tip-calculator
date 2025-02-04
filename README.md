@@ -29,6 +29,3 @@ Este proyecto es una aplicación que permite calcular la propina de una lista de
 Puedes ver la aplicación funcionando en el siguiente enlace:  
 🔗 [TipCalculator Deploy](https://juli-tip-calculator.netlify.app)
 
----
-
-Si tienes alguna sugerencia o mejora, ¡no dudes en contribuir! 🚀
