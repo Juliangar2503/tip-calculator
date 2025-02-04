@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# TipCalculator - React & customHooks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![TipCalculator](public/photoApp.png)
 
-Currently, two official plugins are available:
+## Descripción
+Este proyecto es una aplicación que permite calcular la propina de una lista de productos de un bar, desarrollado con **React**. Durante su desarrollo, he aprendido a utilizar **TailwindCSS** para el diseño, afianzando conceptos de los hooks más utilizados en React y creando mi propio **custom hook**. También he comprendido la importancia de **useMemo** para optimizar cálculos dependientes de ciertas variables.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías utilizadas
+- **React**: Biblioteca principal para la construcción de la interfaz.
+- **TailwindCSS**: Para el diseño y estilizado rápido y eficiente.
+- **useMemo**: Para la optimización del rendimiento en cálculos dependientes de valores específicos.
+- **Custom Hooks**: Para encapsular lógica reutilizable y mejorar la organización del código.
+- **Vite**: Para la configuración y optimización del entorno de desarrollo.
 
-## Expanding the ESLint configuration
+## Lecciones aprendidas
+1. **Uso de TailwindCSS**:
+   - Permite estilizar rápidamente los componentes sin necesidad de archivos CSS adicionales.
+   - Facilita la creación de diseños responsivos de forma sencilla.
+   
+2. **Profundización en hooks de React**:
+   - Uso de **useMemo** para mejorar el rendimiento de la aplicación.
+   - Creación de **custom hooks** para encapsular lógica reutilizable.
+   
+3. **Primeros pasos sólidos en React**:
+   - Comenzar a comprender el potencial de React en la creación de interfaces dinámicas y eficientes.
+   - Aprender a manejar mejor el estado y la reactividad de los componentes.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Deploy
+Puedes ver la aplicación funcionando en el siguiente enlace:  
+🔗 [TipCalculator Deploy](https://juli-tip-calculator.netlify.app)
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Si tienes alguna sugerencia o mejora, ¡no dudes en contribuir! 🚀
